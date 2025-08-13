@@ -41,7 +41,9 @@
 	overflow: visible; /* حتى لا تُقص الصورة عندما تخرج قليلاً للخارج */
 	box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
 }
-
+.header-brand {
+	margin-bottom: -3.4rem;
+}
 /* نص الهيرو — خليه يحتل مساحة أقل للاقتراب من الصورة */
 .hero-text {
 	width: 45%; /* مساحة نص صغيرة -> الصورة أقرب */
@@ -516,7 +518,9 @@ footer .target-text {
 	body {
 		font-size: 13px;
 	}
-
+.header-brand {
+		margin-bottom: -2.1rem;
+	}
 	.hero-text h1 {
 		font-size: 1.5rem;
 	}
@@ -599,3 +603,4 @@ footer .target-text {
 		font-size: 1rem;
 	}
 }
+
